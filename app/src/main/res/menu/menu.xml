@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/ tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="Preferencias"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:title="Acerca de..."
+        android:id="@+id/acercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        android:id="@+id/buscar"
+        android:title="buscar"
+        app:showAsAction="always|collapseActionView">
+
+
+
+    </item>
+
+    <!--con este codigo en xml indico su id para utilizarlos en los activiti y utilizo su vista
+    nunca olvidad que es obligatotio que los item tenga title,id y icon-->
+</menu>
